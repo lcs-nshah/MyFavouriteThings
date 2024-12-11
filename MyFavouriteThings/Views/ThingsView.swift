@@ -26,7 +26,7 @@ struct ThingsView: View {
             VStack {
                 Text(thingToShow.title)
                 
-                Text(thingToShow.text)
+                Text(thingToShow.description)
                 
             }
         }
