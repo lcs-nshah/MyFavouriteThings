@@ -12,8 +12,8 @@ struct ThingsListView: View {
     // MARK: Computed Property
     var body: some View {
         NavigationStack {
-            List {
-                ThingsView(thingToShow: legos)
+            List (myFavouriteThings) { currentThing in
+                ThingsView(thingToShow: currentThing)
             }
             .navigationTitle("My Favourite Things")
         }
