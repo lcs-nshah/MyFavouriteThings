@@ -13,7 +13,11 @@ struct ThingsListView: View {
     var body: some View {
         NavigationStack {
             List (myFavouriteThings) { currentThing in
-                ThingsView(thingToShow: currentThing)
+                NavigationLink {
+                    ThingsDetailView(thingToShow: currentThing)
+                }   label: {
+                    ThingsView(providedThing: currentThing)
+                }
             }
             .navigationTitle("My Favourite Things")
         }

@@ -13,6 +13,7 @@
 		231517632D09F7DD00FFDC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2315175C2D09F7DD00FFDC27 /* Assets.xcassets */; };
 		231517692D09F8AF00FFDC27 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231517682D09F86600FFDC27 /* Things.swift */; };
 		2315176B2D09F8E200FFDC27 /* ThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315176A2D09F8CB00FFDC27 /* ThingsListView.swift */; };
+		2315176D2D0B4EAA00FFDC27 /* ThingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315176C2D0B4E9800FFDC27 /* ThingsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2315175E2D09F7DD00FFDC27 /* MyFavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteThingsApp.swift; sourceTree = "<group>"; };
 		231517682D09F86600FFDC27 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
 		2315176A2D09F8CB00FFDC27 /* ThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsListView.swift; sourceTree = "<group>"; };
+		2315176C2D0B4E9800FFDC27 /* ThingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		231517662D09F80900FFDC27 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2315176C2D0B4E9800FFDC27 /* ThingsDetailView.swift */,
 				2315176A2D09F8CB00FFDC27 /* ThingsListView.swift */,
 				2315175D2D09F7DD00FFDC27 /* ThingsView.swift */,
 			);
@@ -164,6 +167,7 @@
 			files = (
 				231517602D09F7DD00FFDC27 /* ThingsView.swift in Sources */,
 				231517692D09F8AF00FFDC27 /* Things.swift in Sources */,
+				2315176D2D0B4EAA00FFDC27 /* ThingsDetailView.swift in Sources */,
 				231517612D09F7DD00FFDC27 /* MyFavouriteThingsApp.swift in Sources */,
 				2315176B2D09F8E200FFDC27 /* ThingsListView.swift in Sources */,
 			);
