@@ -20,7 +20,7 @@ struct ThingsDetailView: View {
                     .resizable()
                     .scaledToFit()
                     
-                Text(thingToShow.description)
+                Text(thingToShow.detailedDescription)
             }
             .padding()
         }

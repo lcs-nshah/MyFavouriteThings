@@ -29,7 +29,6 @@ struct ThingsView: View {
                     .font(.system(.title2, design: .default, weight: .semibold))
                 
                 Text(providedThing.description)
-                
             }
         }
     }
